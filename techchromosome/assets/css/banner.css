@@ -1,0 +1,540 @@
+/*==============================================
+    Banner One   
+===============================================*/
+.banner-one {
+    position: relative;
+    display: block;
+    background: linear-gradient(0deg, rgba(240, 244, 255, 0.78) 0%, rgba(240, 244, 255, 0) 100%);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.banner-one__shape-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+    top: 0;
+    background-color: rgba(var(--tchm-extra-rgb), .50);
+    clip-path: polygon(0 0, 0 22%, 100% 100%, 0% 100%);
+    z-index: -1;
+}
+
+.banner-one__shape-2 {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 49%;
+    height: 400px;
+    background-color: rgba(var(--tchm-base-rgb), 0.03);
+    clip-path: polygon(70% 56%, 0% 100%, 100% 100%);
+    z-index: -1;
+}
+
+.banner-one__shape-3 {
+    position: absolute;
+    top: -316px;
+    background-color: rgba(var(--tchm-extra-rgb), .50);
+    left: 26%;
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    transform: rotate(59deg);
+}
+
+.banner-one__shape-3::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    right: -50px;
+    bottom: -50px;
+    border: 1px solid rgba(var(--tchm-base-rgb), .20);
+    border-radius: 50px;
+}
+
+.banner-one__shape-4 {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    z-index: -1;
+}
+
+.banner-one__shape-4 img {
+    width: auto;
+    opacity: .20;
+}
+
+.banner-one__shape-5 {
+    position: absolute;
+    left: 70px;
+    top: 100px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #B718A6;
+    background: linear-gradient(90deg, rgba(183, 24, 166, 1) 0%, rgba(110, 84, 243, 1) 83%);
+    z-index: -1;
+}
+
+.banner-one__shape-6 {
+    position: absolute;
+    bottom: 120px;
+    left: 240px;
+    z-index: -1;
+}
+
+.banner-one__shape-6 img {
+    width: auto;
+    opacity: .20;
+}
+
+.banner-one__inner {
+    position: relative;
+    display: block;
+    z-index: 1;
+    padding: 177px 0 180px;
+}
+
+.banner-one__img-box {
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    z-index: -1;
+}
+
+.banner-one__img {
+    position: relative;
+    display: block;
+}
+
+.banner-one__img img {
+    width: auto;
+    animation: topBottom 3s ease-in-out infinite;
+}
+
+.banner-one__img-shape-2 {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    width: 30px;
+    height: 30px;
+    background: #8e7ce6;
+    background: linear-gradient(90deg, rgba(142, 124, 230, 1) 35%, rgba(110, 84, 243, 1) 100%);
+    border-radius: 50%;
+}
+
+.banner-one__img-shape-3 {
+    position: absolute;
+    bottom: 120px;
+    left: -35px;
+    width: 50px;
+    height: 50px;
+    background: #B718A6;
+    background: linear-gradient(90deg, rgba(183, 24, 166, 1) 0%, rgba(110, 84, 243, 1) 83%);
+    border-radius: 50%;
+}
+
+.banner-one__img-shape-4 {
+    position: absolute;
+    bottom: 120px;
+    left: -35px;
+    width: 15px;
+    height: 15px;
+    background: #B718A6;
+    background: linear-gradient(90deg, rgba(183, 24, 166, 1) 0%, rgba(110, 84, 243, 1) 83%);
+    border-radius: 50%;
+}
+
+.banner-one__img-shape-5 {
+    position: absolute;
+    top: -70px;
+    right: 30px;
+    opacity: .30;
+}
+
+.banner-one__img-shape-5 img {
+    width: auto;
+}
+
+.banner-one__content {
+    position: relative;
+    display: block;
+}
+
+.banner-one__sub-title-box {
+    position: relative;
+    display: inline-block;
+}
+
+.banner-one__sub-title {
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--tchm-base);
+    font-family: var(--tchm-font-two);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.banner-one__sub-title-shape {
+    position: relative;
+    display: block;
+    height: 1px;
+    width: 40px;
+    background-color: var(--tchm-base);
+}
+
+.banner-one__title {
+    position: relative;
+    display: block;
+    font-size: 70px;
+    color: var(--tchm-black);
+    font-weight: 700;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.banner-one__title span {
+    color: var(--tchm-base);
+}
+
+.banner-one__content .banner-one__title .split-line {
+    text-transform: none;
+}
+
+.banner-one__text {
+    margin: 25px 0 27px;
+}
+
+.banner-one__btn-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.banner-one__btn {
+    position: relative;
+    display: block;
+}
+
+.banner-one__video-link {
+    position: absolute;
+    top: 32%;
+    right: 2%;
+}
+
+.banner-one__video-icon {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--tchm-white);
+    background-color: rgba(var(--tchm-base-rgb), 1);
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.banner-one__video-icon:hover {
+    background-color: var(--tchm-white);
+    color: var(--tchm-base);
+}
+
+.banner-one__video-link .ripple,
+.banner-one__video-icon .ripple:before,
+.banner-one__video-icon .ripple:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-box-shadow: 0 0 0 0 rgba(var(--tchm-base-rgb), 0.6);
+    -o-box-shadow: 0 0 0 0 rgba(var(--tchm-base-rgb), 0.6);
+    -webkit-box-shadow: 0 0 0 0 rgba(var(--tchm-base-rgb), 0.6);
+    box-shadow: 0 0 0 0 rgba(var(--tchm-base-rgb), 0.6);
+    -webkit-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+}
+
+.banner-one__video-icon .ripple:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    content: "";
+    position: absolute;
+}
+
+.banner-one__video-icon .ripple:after {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    content: "";
+    position: absolute;
+}
+
+
+/*==============================================
+    Banner Two   
+===============================================*/
+.banner-two {
+    position: relative;
+    display: block;
+    background: linear-gradient(0deg, rgba(240, 244, 255, 0.78) 0%, rgba(240, 244, 255, 0) 100%);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.banner-two__shape-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+    top: 0;
+    background-color: rgba(var(--tchm-extra-rgb), .50);
+    clip-path: polygon(0 0, 0 0%, 100% 100%, 0% 100%);
+    z-index: -1;
+}
+
+.banner-two__shape-2 {
+    position: absolute;
+    top: -658px;
+    background-color: rgba(var(--tchm-extra-rgb), .50);
+    right: 6%;
+    width: 1000px;
+    height: 800px;
+    border-radius: 50px;
+    transform: rotate(59deg);
+}
+
+.banner-two__shape-2::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    right: -50px;
+    bottom: -50px;
+    border: 1px solid rgba(var(--tchm-base-rgb), .20);
+    border-radius: 50px;
+}
+
+.banner-two__shape-3 {
+    position: absolute;
+    bottom: 55px;
+    right: 50px;
+    mix-blend-mode: luminosity;
+    opacity: .20;
+    z-index: -1;
+}
+
+.banner-two__shape-3 img {
+    width: auto;
+}
+
+.banner-two__shape-4 {
+    position: absolute;
+    top: 58px;
+    left: 80px;
+    opacity: .10;
+    mix-blend-mode: luminosity;
+    z-index: -1;
+}
+
+.banner-two__shape-4 img {
+    width: auto;
+}
+
+.banner-two__inner {
+    position: relative;
+    display: block;
+    padding: 255px 0 120px;
+    z-index: 1;
+}
+
+.banner-two__content {
+    position: relative;
+    display: block;
+    max-width: 730px;
+    width: 100%;
+    margin-left: auto;
+    top: -42px;
+}
+
+.banner-two__sub-title-box {
+    position: relative;
+    display: inline-block;
+}
+
+.banner-two__sub-title {
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--tchm-base);
+    font-family: var(--tchm-font-two);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.banner-two__sub-title-shape {
+    position: relative;
+    display: block;
+    height: 1px;
+    width: 40px;
+    background-color: var(--tchm-base);
+}
+
+.banner-two__title {
+    position: relative;
+    display: block;
+    font-size: 67px;
+    color: var(--tchm-black);
+    font-weight: 700;
+    line-height: 1.1em;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.banner-two__title span {
+    color: var(--tchm-base);
+}
+
+.banner-two__content .banner-two__title .split-line {
+    text-transform: none;
+}
+
+.banner-two__text {
+    margin: 25px 0 27px;
+}
+
+.banner-two__btn-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.banner-two__trustpilot-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.banner-two__trustpilot-img-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner-two__trustpilot-img-list li {
+    position: relative;
+    display: block;
+}
+
+.banner-two__trustpilot-img-list li+li {
+    margin-left: -10px;
+}
+
+.banner-two__trustpilot-img {
+    position: relative;
+    display: block;
+    width: 44px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.banner-two__trustpilot-img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid var(--tchm-white);
+}
+
+.banner-two__trustpilot-content-box {
+    position: relative;
+    display: block;
+}
+
+.banner-two__trustpilot-logo {
+    position: relative;
+    display: block;
+}
+
+.banner-two__trustpilot-logo img {
+    width: auto;
+}
+
+.banner-two__trustpilot-rating-review {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+
+.banner-two__trustpilot-rating {
+    font-size: 14px;
+    color: var(--tchm-base);
+}
+
+.banner-two__trustpilot-review {
+    font-size: 14px;
+    color: var(--tchm-black);
+    position: relative;
+    display: block;
+    margin-left: 12px;
+}
+
+.banner-two__trustpilot-review:before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    bottom: 7px;
+    left: -6px;
+    width: 1px;
+    background-color: var(--tchm-white);
+}
+
+.banner-two__btn {
+    position: relative;
+    display: block;
+}
+
+.banner-two__img-box {
+    position: absolute;
+    bottom: 0;
+    left: -120px;
+    z-index: 1;
+}
+
+.banner-two__img {
+    position: relative;
+    display: block;
+    animation: topBottom 3s ease-in-out infinite;
+}
+
+.banner-two__img img {
+    width: 100%;
+}
+
+
+
+/*==============================================
+    End   
+===============================================*/
