@@ -1,0 +1,219 @@
+
+/*--------------------------------------------------------------
+# About Two
+--------------------------------------------------------------*/
+.about-two {
+    position: relative;
+    display: block;
+    padding: 90px 0 30px;
+    z-index: 1;
+}
+
+.about-two__shape-1 {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 300px;
+    height: 700px;
+    transform: rotate(-28deg);
+    background: #6E54F3;
+    background: linear-gradient(0deg, rgba(110, 84, 243, 0) 22%, rgba(110, 84, 243, .08) 100%);
+    clip-path: polygon(0 0, 49% 0, 76% 100%, 23% 100%);
+    z-index: -1;
+}
+
+.about-two__shape-2 {
+    position: absolute;
+    width: 481px;
+    height: 448px;
+    right: -221px;
+    bottom: 0;
+    background: rgba(110, 84, 243, 0.18);
+    filter: blur(170px);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.about-two__shape-3 {
+    position: absolute;
+    bottom: 80px;
+    left: 40%;
+    opacity: .50;
+    z-index: -1;
+}
+
+.about-two__shape-3 img {
+    width: auto;
+}
+
+.about-two__shape-4 {
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    opacity: .20;
+    z-index: -1;
+}
+
+.about-two__shape-4 img {
+    width: auto;
+}
+
+.about-two__left {
+    position: relative;
+    display: block;
+}
+
+.about-two__left .section-title {
+    margin-bottom: 26px;
+}
+
+.about-two__text-1 {
+    margin-bottom: 29px;
+}
+
+.about-two__points {
+    position: relative;
+    display: block;
+}
+
+.about-two__points li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-two__points li+li {
+    margin-top: 7px;
+}
+
+.about-two__points li .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.about-two__points li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: var(--tchm-base);
+}
+
+.about-two__points li p {
+    color: var(--tchm-black);
+    font-weight: 600;
+}
+
+.about-two__progress-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 28px;
+}
+
+.about-two__progress-single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.about-two__progress-single .graph-outer {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: 4px;
+    z-index: 1;
+}
+
+.about-two__progress-single .graph-outer .count-box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.about-two__progress-single .graph-outer .count-text {
+    position: relative;
+    display: inline-block;
+    color: var(--tchm-black);
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: var(--tchm-font-two);
+}
+
+.about-two__progress-single .graph-outer .count-Parsent {
+    position: relative;
+    display: inline-block;
+    color: var(--tchm-black);
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: var(--tchm-font-two);
+    text-transform: uppercase;
+}
+
+.about-two__progress-text-box {
+    position: relative;
+    display: block;
+}
+
+.about-two__progress-text-box h4 {
+    color: var(--tchm-black);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.about-two__btn-box-and-call-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 26px;
+}
+.about-two__right {
+    position: relative;
+    display: block;
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+.about-two__img-box {
+    position: relative;
+    display: block;
+}
+
+.about-two__img {
+    position: relative;
+    display: block;
+}
+
+.about-two__img img {
+    width: 100%;
+    border-radius: var(--tchm-bdr-radius);
+}
+
+.about-two__img-2 {
+    position: absolute;
+    bottom: -212px;
+    right: -200px;
+    border-radius: var(--tchm-bdr-radius);
+}
+
+.about-two__img-2 img {
+    width: auto;
+    border-radius: var(--tchm-bdr-radius);
+}
+
+
+
+
+
