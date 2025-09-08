@@ -261,16 +261,16 @@ ul {
 }
 
 .loader div:nth-child(1) {
-  background-color: rgba(var(--tchm-base-rgb), 1.0);
+  background-color: #ff660026;
 }
 
 .loader div:nth-child(2) {
-  background-color: rgba(var(--tchm-base-rgb), 0.70);
+  background-color: #ff660026;
   animation-delay: 0.2s;
 }
 
 .loader div:nth-child(3) {
-  background-color: rgba(var(--tchm-base-rgb), 0.40);
+  background-color: #ff660026;
   animation-delay: 0.4s;
 }
 
@@ -2580,6 +2580,18 @@ footer{
 .main-header-two{
   padding: 10px;
 }
+.footer-column.contact{
+	width:100%;
+padding:0px;
+}
+.footer-column{
+width:46%;
+}
+footer{
+	padding-top:50px;
+}
+.footer-container{
+padding:0px 15px;}
 }
 
 
